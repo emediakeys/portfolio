@@ -494,10 +494,22 @@ img {
   --font-size-xxl: 4rem;
 }
   .navbar .section-content {
-    padding: 0 30px;
-  }
-  
-  .navbar.Sticky {
-    padding: 0 5px;
-  }
+  padding: 0 30px;
+}
+  .navbar .logo a {
+  font-size: var(--font-size-l);
+}
+
+  .navbar .logo a span {
+  font-size: var(--font-size-l);
+}
+
+
+  .navbar .menu li a{
+  font-size: var(--font-size-l);
+
+}
+  .navbar .section-content .menu .close-mobile-menu {
+  font-size: var(--font-size-l);
+}
 }
