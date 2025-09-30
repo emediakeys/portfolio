@@ -184,10 +184,10 @@ img {
 /* hero section  */
 .hero-section {
   display: flex; 
-  /*background: url("images/background.png") no-repeat center;
+  background: url("https://picsum.photos/seed/&{Math.random()}/800") no-repeat center;
   backdrop-filter: sapia(80%);
   height: 100vh;
-  color: var(--light-color);*/
+  color: var(--light-color);
   /* min-height: 500px; */
   font-family: "puppins", sans-serif;
 }
